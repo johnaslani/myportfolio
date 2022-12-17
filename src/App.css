@@ -1,6 +1,8 @@
-.App {
+/* .App {
   text-align: center;
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -11,28 +13,135 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  /* padding: 3rem; */
+  /* height: 9rem; */
+  padding: 3rem;
+}
+
+.navLink {
+  margin: 1rem;
+}
+
+.navLinkActive {
+  margin: 1rem;
+  color: yellow;
+  text-decoration: underline;
+}
+.navLinks {
+  display: flex;
+  list-style: none;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #f4f7f8;
 }
 
-@keyframes App-logo-spin {
+main {
+  padding: 3rem;
+}
+
+#footer {
+  padding: 3rem;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: rgb(169, 169, 172);
+}
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
-  }
+  } */
+/* } */
+
+.footerLink {
+  color: white;
 }
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  padding: 2rem;
+}
+
+.project img {
+  width: 500px;
+}
+
+.projectLink {
+  margin: 0.5rem;
+  font-size: 2rem;
+}
+
+.resume {
+  text-decoration: underline;
+}
+
+.formLabel {
+  /* text-decoration: underline; */
+  /* justify-content: left; */
+  font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* column-width: 100px; */
+  align-items: center;
+  justify-content: space-around;
+  /* line-height: 1.5rem; */
+  border: 2px solid black;
+  height: 50vh;
+  width: 50%;
+  border-radius: 10%;
+}
+
+.contact {
+  text-decoration: underline;
+  text-align: center;
+  justify-content: center;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formBtn {
+  width: 12rem;
+  height: 3rem;
+}
+
+.formPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .container {
+
+} */
